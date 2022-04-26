@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #131414;
+    margin: 0;
+}
+
+#one-section {
+    height: 500px;
+    background-image: url(img/bkg-main.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#one-section::before {
+    content: '';
+    position: absolute;
+    background-color: #131414;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    width: 100%;
+    height: 500px;
+}
+
+#one-section .c-bkg-text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+#one-section h1 {
+    color: #fff;
+    font-size: 2.5em;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+#one-section h2 {
+    background-color: #37af2ff2;
+    width: 50%;
+    padding: 5px 25px;
+    margin: 0 auto;
+}
+
+#one-section h4 {
+    color: #fff;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+#one-section h4 b {
+    color: #37af2ff2;
+    background-color: #131414;
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+#two-section {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title-about-main {
+    text-align: center;
+}
+
+.title-about-main h1 {
+    font-weight: 600;
+    margin-top: -7px;
+    font-size: 1.9em;
+}
+
+
+.title-about-main h3 {
+    font-size: 1.2em;
+    padding: 15px 10px 0 10px;
+    font-weight: 600;
+}
+
+.title-about-main h3::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #37af2f;
+}
+
+.text-about-main {
+    width: 65%;
+    float: left;
+    font-weight: 300;
+}
+
+.text-about-main .text-1 {
+    font-weight: 400;
+}
+
+.text-about-main .text-2 {
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.photo-xp-main {
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+
+.photo-xp-main img {
+    max-width: 70%;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #131414, #37af2f, #131414);
+}
+
+.photo-xp-main span {
+    display: inline-block;
+    font-weight: 600;
+    margin: 4px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*three-section*/
+#three-section {
+    overflow: hidden;
+    background-color: #f5f5f5;
+    /* background-color: #333; */
+}
+
+#three-section .title-article h3 {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px 10px 0 10px;
+    font-weight: 600;
+}
+
+#three-section .title-article h3::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #37af2f;
+}
+
+#three-section .col-3 {
+    width: 30%;
+    margin: 1%;
+    float: left;
+    background-color: white;
+    /* background-color: #000; */
+    padding: 0.5%;
+}
+
+#three-section .bx-img-article {
+    max-width: 100%;
+}
+
+#three-section .bx-title-article {
+    min-height: 60px;
+    text-align: center;
+}
+
+#three-section .line::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 3px;
+    margin: -10px auto 10px auto;
+    background-color: #37af2f;
+}
+
+#three-section .bx-text-article {
+    min-height: 200px;
+    text-align: justify;
+}
+
+#three-section .leia-mais {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}

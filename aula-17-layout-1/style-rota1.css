@@ -1,0 +1,23 @@
+
+/*
+Contêiner, Bloco => Espaço ocupado
+
+width => Largura
+height => Altura
+background-image => imagem de background
+background-color => cor de background
+margin => Margem, espaço externo do contêiner
+
+*/
+
+#one-section {
+    height: 500px;
+    background-color: #131414;
+}
+
+.conteiner {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 300px;
+    background-color: #37af2ff2;
+}

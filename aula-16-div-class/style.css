@@ -1,0 +1,25 @@
+/* body {
+    background-image: url(img/bkg-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.text-one {
+    width: 50%;
+    height: 100px;
+    background-color: #ddd;
+    float: left;
+}
+
+.text-two {
+    width: 30%;
+    height: 100px;
+    background-color: #888;
+    float: left;
+}
+
+/* 
+    Largura do navegador - 100%
+    Width => LARGURA - em % por causa da responsividade
+    Height => ALTURA - em px
+*/
